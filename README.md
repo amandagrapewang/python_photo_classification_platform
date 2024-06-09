@@ -19,10 +19,12 @@ project/
 │   └── scenery_model.h5
 │
 ├── number_train.py        # 手写数字识别模型训练脚本
-├── app.py                 # Streamlit应用程序，用于模型的Web展示
-├── animal_train.py       # 动物分类模型训练脚本
-├── flowers_train.py      # 花卉分类模型训练脚本
-├── scenery_train.py      # 风景地点分类模型训练脚本
+├── app.py                 # Streamlit应用程序，用于模型的Web展示，集成了读入用户手写和上传图片功能
+├── newapp.py              # Streamlit应用程序，minst数据集的用户手写识别
+├── backupapp.py           # Streamlit应用程序，实现上传图片进行预测功能
+├── animal_train.py        # 动物分类模型训练脚本
+├── flowers_train.py       # 花卉分类模型训练脚本
+├── scenery_train.py       # 风景地点分类模型训练脚本
 └── requirements.txt       # 项目依赖文件
 ```
 ## 模型训练
