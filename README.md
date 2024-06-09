@@ -35,3 +35,17 @@ project/
 
 每个训练脚本都会生成一个`.h5`格式的模型文件，保存在`model/`目录下。
 
+## 应用程序
+`app.py`是一个Streamlit应用程序，它加载训练好的模型并提供一个简单的界面，用户可以上传图片或在画布上绘制，应用程序将预测并展示结果。
+
+### 使用方法
+1. 在干净的conda环境中：
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. 训练模型并将`.h5`文件放置在`model/`目录下。
+3. 运行`app.py`：
+   ```bash
+   streamlit run YOUR/DIR/TO/app.py
+   ```
+
