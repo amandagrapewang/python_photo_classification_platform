@@ -1,0 +1,2 @@
+# python_photo_classification_platform
+一个有bug但是可以运行的平台，可能是我模型互相干扰了？
